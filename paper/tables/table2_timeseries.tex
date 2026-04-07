@@ -1,0 +1,38 @@
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Wed, Mar 25, 2026 - 03:08:51
+\begin{table}[!htbp] \centering 
+  \caption{Time Trends in AI Content of Federal Public Comments} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & \multicolumn{4}{c}{AI score (Pangram v3)} \\ 
+ & (1) & (2) & (3) & (4) \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ Year (0 = 2019) & 0.021$^{***}$ & 0.018$^{***}$ & 0.019$^{***}$ &  \\ 
+  & (0.002) & (0.002) & (0.002) &  \\ 
+  & & & & \\ 
+ Post-ChatGPT (2023+) &  &  &  & 0.063$^{***}$ \\ 
+  &  &  &  & (0.007) \\ 
+  & & & & \\ 
+ Log(word count) &  &  & 0.008$^{**}$ &  \\ 
+  &  &  & (0.004) &  \\ 
+  & & & & \\ 
+ Constant & $-$0.029$^{***}$ & 0.045$^{*}$ & 0.0003 & 0.071$^{***}$ \\ 
+  & (0.004) & (0.024) & (0.032) & (0.025) \\ 
+  & & & & \\ 
+\hline \\[-1.8ex] 
+Agency FE & No & Yes & Yes & Yes \\ 
+Observations & 2,885 & 2,885 & 2,885 & 2,885 \\ 
+R$^{2}$ & 0.051 & 0.071 & 0.072 & 0.061 \\ 
+Adjusted R$^{2}$ & 0.051 & 0.067 & 0.067 & 0.056 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+ & \multicolumn{4}{r}{HC3 robust SEs. N = 2885 comments across 14 agencies, 2019-2025.} \\ 
+\end{tabular} 
+\end{table} 
