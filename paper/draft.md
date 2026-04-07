@@ -162,6 +162,22 @@ This pattern suggests advocacy organizations are using AI to generate individual
 
 This argument is specific, plausible, and novel — it addresses an angle not covered in advocacy talking points. It likely represents an individual who used AI to help articulate a concern they genuinely hold. This is qualitatively different from form-letter generation, and raises distinct normative questions.
 
+### 4.7 Ideological Alignment of AI-Generated Comments
+
+To test whether AI-generated comments differ systematically in political content from human-written comments, I classify a subsample of 414 comments — all 138 comments scoring 1.0 (fully AI-generated) and a stratified random sample of 276 comments scoring 0.0 (fully human-written) — using Claude Haiku as an automated coder. Each comment is classified on four dimensions: regulatory stance (pro- or anti-regulation), ideological framing (left or right), argument type (technical, emotional, form letter, or substantive-novel), and argument quality (1–5 scale).
+
+**Regulatory stance does not differ significantly between AI and human comments.** Among AI-generated comments, 58.0% support the proposed regulation and 40.6% oppose it; among human comments, the split is 49.3% pro and 43.5% anti (χ² = 0.95, p = 0.33). AI is used on both sides of contested rules.
+
+**Ideological framing, however, is significantly skewed.** AI-generated comments are disproportionately coded as left-leaning in rhetorical framing: 74.6% left versus 17.4% right, compared to 60.5% left and 28.3% right among human comments (χ² = 6.40, p = 0.011; Fisher's exact OR = 1.93, p = 0.012). This does not mean AI itself introduces left-leaning bias — rather, the organized mobilization campaigns that deploy AI at scale in 2025 are predominantly left-coded: opposition to immigration registration (USCIS, EOIR), defense of environmental protections (BLM, EPA, NOAA), and support for health and safety regulation (CMS, OSHA). Right-leaning commenters also use AI, but at lower rates and in fewer coordinated campaigns.
+
+**AI amplifies the dominant position within each docket.** At the agency level, AI comments do not uniformly favor one ideological direction. Instead, they amplify whichever position is already dominant among human commenters. At USCIS, where 64% of human comments oppose the alien registration rule, 100% of AI comments oppose it. At NHTSA, where human commenters split roughly evenly on vehicle safety standards, 100% of AI comments support the regulation. At OSHA, AI comments reverse the apparent majority: 75% of AI comments support workplace safety regulation, compared to only 12.5% of human comments. This amplification pattern holds in 9 of 13 agencies with sufficient AI and human comments for comparison.
+
+The most striking cases are the Department of Education and OSHA. At ED, 86% of AI comments oppose the proposed rule (vs. 29% of human comments) — consistent with organized opposition to Trump administration education policy changes. At OSHA, AI-generated comments are overwhelmingly pro-regulation while human comments are overwhelmingly anti-regulation, suggesting that the AI comments originate from a different population (likely labor organizations or safety advocates) than the human commenters (likely regulated employers).
+
+**AI-generated comments score slightly but significantly higher on argument quality** (mean 3.11 vs. 2.87, Mann-Whitney p = 0.027). AI comments are more likely to be classified as "substantive-novel" (59% vs. 56%) but also more likely to be classified as "form letter" (20% vs. 15%). The bimodal pattern — AI produces both more polished arguments and more detectable boilerplate — is consistent with the two mechanisms identified in Section 4.4: organized campaigns generating form-letter variants and individual citizens using AI to elevate their arguments.
+
+These results have implications for how agencies should weight AI-generated comments. If AI merely amplified one ideological direction uniformly, agencies could adjust by discounting AI-flagged comments. But the amplification pattern is docket-specific: AI inflates the apparent strength of whichever side deploys it. This makes AI-generated comments harder to filter without substantive judgment about which positions they represent — a judgment agencies are not supposed to make under the Administrative Procedure Act.
+
 ---
 
 ## 5. Discussion
